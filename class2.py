@@ -153,14 +153,21 @@ numbers=[23,1,4,5,6,78,9,4,4,4,4]
 
 
 # the del statement
-a = [-1, 1, 66.25, 333, 333, 1234.5]
-del a[0]
-print(a)
+# a = [-1, 1, 66.25, 333, 333, 1234.5]
+# del a[0]
+# print(a)
 
-del a[2:4]
-print(a)
-del a[:]
-print(a)
+# del a[2:4]
+# print(a)
+# del a[:]
+# print(a)
+
+# Tuples and Sequences
+t=1,2,4,'Hello!'
+print(t[0])
+t.count(1)
+u = t, (1, 2, 3, 4, 5)
+print(u)
 
 
 
