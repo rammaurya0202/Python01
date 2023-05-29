@@ -163,11 +163,26 @@ numbers=[23,1,4,5,6,78,9,4,4,4,4]
 # print(a)
 
 # Tuples and Sequences
-t=1,2,4,'Hello!'
-print(t[0])
-t.count(1)
-u = t, (1, 2, 3, 4, 5)
-print(u)
+# t=1,2,4,'Hello!'
+# print(t[0])
+# t.count(1)
+# u = t, (1, 2, 3, 4, 5)
+# print(u)
+
+# SETS
+# basket = {'apple', 'orange', 'apple', 'pear', 'orange', 'banana'}
+# print(basket)
+# print('orange' in basket)
+
+# combs=[]
+# for x in [1,2,3] :
+#     for y in [3,1,4] :
+#         if x!=y :
+#             combs.append((x,y))
 
 
+# print(combs)
 
+
+a = {x for x in 'abracadabra' if x not in 'abc'}
+print(a)
