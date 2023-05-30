@@ -97,7 +97,7 @@ from collections import deque
 #     print("FAIL") 
 
 # append method
-numbers=[23,1,4,5,6,78,9,4,4,4,4]
+# numbers=[23,1,4,5,6,78,9,4,4,4,4]
 # num=[11,22,33,44]
 # numbers.sort();
 # print(numbers)
@@ -184,5 +184,35 @@ numbers=[23,1,4,5,6,78,9,4,4,4,4]
 # print(combs)
 
 
-a = {x for x in 'abracadabra' if x not in 'abc'}
-print(a)
+# a = {x for x in 'abracadabra' if x not in 'abc'}
+# print(a)
+
+
+# tel = {'jack': 4098, 'sape': 4139}
+# print(tel)
+
+# tel['guido'] =4127
+# print(tel)
+# print('guido' in tel)
+
+# reversed method
+# for i in reversed(range(1, 10, 2)):
+#     print(i)
+
+
+
+
+# num=[2,1,3,1,1,1,4,5,5]
+# for i in sorted(num) :
+#     print(i)
+
+
+def fib(n) :
+    if n==0 or n==1 :
+        return n
+    else :
+        return (fib(n-1) + fib(n-2))
+    
+
+
+print(fib(9))
