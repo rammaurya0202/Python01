@@ -207,12 +207,58 @@ from collections import deque
 #     print(i)
 
 
-def fib(n) :
-    if n==0 or n==1 :
-        return n
-    else :
-        return (fib(n-1) + fib(n-2))
+# def fib(n) :
+#     if n==0 or n==1 :
+#         return n
+#     else :
+#         return (fib(n-1) + fib(n-2))
     
 
 
-print(fib(9))
+# print(fib(9))
+
+
+# import math
+# math.sqrt
+# print(math.sqrt(9) , type(math.sqrt))
+
+# import calendar as c
+
+# print(c.month_name[1])
+
+# x=4   
+# # global  variable x
+# print(x)
+
+# def Hello() :
+#     global x 
+#     x=5
+#     # local variable x
+#     y=1
+#     print(f"the local x is {x}")
+    
+
+# Hello()
+# print(f"the global x is {x}")
+
+
+# def all(iterable):
+#     for element in iterable:
+#         if not element:
+#             return False
+#     return True
+
+
+
+# combs=[]
+# for x in [1,2,3] :
+#     for y in [3,4,5] :
+#         if x!=y :
+#             combs.append((x,y))
+
+# print(combs)
+
+# looping through dictionaries
+knights = {'gallahad': 'the pure', 'robin': 'the brave'}
+for k, v in knights.items():
+    print(k, v)
